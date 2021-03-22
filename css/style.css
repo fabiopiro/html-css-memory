@@ -1,0 +1,41 @@
+/* common */
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* layout */
+.layout {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* uncommon */
+/* HEADER */
+/* title */
+.title {
+    height: 100px;
+    background-color: aqua;
+}
+
+/* MAIN */
+/* container */
+.container {
+    height: 500px;
+    background-color: blanchedalmond;
+}
+
+/* FOOTER */
+/* signature */
+.signature {
+    height: 100px;
+    background-color: cornflowerblue;
+}
