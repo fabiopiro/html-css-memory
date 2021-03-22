@@ -12,10 +12,20 @@
     clear: both;
 }
 
+body {
+    background-color: lightblue;
+    /* font */
+    font-family: 'Nerko One', cursive;
+}
+
+.container {
+    color: magenta;
+}
+
 /* layout */
 .layout {
-    width: 80%;
-    margin: 20px auto;
+    width: 50%;
+    margin: auto;
 }
 
 /* uncommon */
@@ -24,18 +34,90 @@
 .title {
     height: 100px;
     background-color: aqua;
+    text-align: center;
+    line-height: 100px;
+    color: white;
 }
 
 /* MAIN */
 /* container */
 .container {
-    height: 500px;
+    height: 800px;
     background-color: blanchedalmond;
 }
+
+/* raw */
+.raw {
+    height: 200px;
+    background-color: salmon;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.card {
+    height: 100%;
+    width: 22%;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: absolute;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+}
+.two {
+    left: 25%;
+}
+.three {
+    left: 50%;
+}
+.four {
+    left: 75%;
+}
+
+
+.raw-two .two {
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/noun_air_balloon_3134741.png);
+}
+
+.card h2 {
+    position: absolute;
+    bottom: 10%;
+    left: 20%;   
+}
+
+/* hover */
+
+.raw-three .one:hover {
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/noun_Tractor_3134797.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* FOOTER */
 /* signature */
 .signature {
     height: 100px;
-    background-color: cornflowerblue;
+    background-color: lightcoral;
+    text-align: center;
 }
